@@ -1,10 +1,13 @@
 const sel = require('../../data/selectors.json');
 const exp = require('../../data/expected.json');
 
+describe ('Inputs', function () { //define suite title by passing a string
 
+    describe('Inputs are displayed', function () {
 
 
         it('TC-015 Gender he', function () {
+            browser.url('');
             const gender = $$(sel.gender)[0].isDisplayed();
             expect(gender).toEqual(true);
         });
@@ -32,7 +35,8 @@ const exp = require('../../data/expected.json');
             expect(label).toEqual(true);
         });
 
-    });
 
-    describe('Placeholders are correct', function () {})
+
+
+    });
 });

@@ -4,6 +4,10 @@
   "gender": ".ant-radio",
   "age": "#age",
   "story": ".ant-select-selector",
-  "create": ".ant-btn"
+  "create": ".ant-btn",
+  "tryAgain": ".btn-primary",
+  "storyPlaceholder": ".ant-select-selection-placeholder",
+  "storyType": ".ant-select-item-option",
+  "storyClick": ".ant-select-show-arrow"
 
 }
